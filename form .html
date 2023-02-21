@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Html question and answer </title>
+        </head>
+        <body>
+            <!-- Create a list of your top 5 favourite movie using an ordered list
+        -->
+        <h1>Welcome To My Web Page</h1>
+        <ol>
+            <li>Gadar ek pream katha</li>
+            <li>The godfather</li>
+            <li>Ms dhoni the untold story</li>
+            <li>Azhar</li>
+            <li>tu hamar hau</li>
+            <li>The Gps</li>
+        </ol>
+
+          <!-- Create a list of your top 5 favourite movie using an unordered list
+        -->
+        <h1>Welcome To My Web Page</h1>
+        <ul>
+            <li>Gadar ek pream katha</li>
+            <li>The godfather</li>
+            <li>Ms dhoni the untold story</li>
+            <li>Azhar</li>
+            <li>tu hamar hau</li>
+            <li>The Gps</li>
+        </ul>
+
+        <!-- Create a table of one columns and three rows. the first columns should contain the names of three different fruits, and the second
+        column should contain the number of serving of each fruit you ate at this week -->
+
+        <!-- <tabel>
+            <tr>
+            <th>Fruit</th>
+            <th>serving</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>5</td>
+        </tr>
+        <tr>
+        <td>Bananas</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Oranges</td>
+        <td>3</td>
+    </tr>
+
+        </tabel> -->
+<!-- 
+        Create a hyperlink to Google that say "go to google". -->
+
+        <a href="htttps://www.googole.com">
+            Go to Google</a>
+
+            <!-- Create a form that alllows the user to enter their names and email id  -->
+
+            <form>
+                <label for ="names">Name</label>
+                <input type ="text" id = "name" name ="name" required> <br>
+                <label for ="email">Email</label>
+
+                <input type = "email" id = "email" name="email" required> <br>
+                <label for ="telephone">Phone number</label>
+
+                <input type ="telephone" id = "Phone number" name="Phone number"> <br>
+                <input type = "submit" value="submit">
+            </form>
+
+            <!-- Create an image element that display a picture  of a cat. -->
+
+            <img src="https://upload.wikimedia.org" alt = "A cute cat"><br>
+
+            <!-- Create a link to an email address that  opens the user's email client -->
+
+            <a href="mailbox:pintugps.in@gmail.com">Send me an email</a> <br>
+
+
+            <!-- Create a button element that says "Click Me! " and perform an alert when clicked. -->
+
+            <button  onclick="alert ('you click the button')"> Click me!</button>
+
+            <!-- Create a viedo element that display a YouTube Viedo -->
+
+            <iframe width="560" height ="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTubeViedo" 
+            frameborder="0" allow=" acceelerometer; autoplay;
+            clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+
+            <!-- create a dropdown menu with three option: -->
+
+            <select>
+                <option value="1"> Option  1</option>
+                <option value="2"> Option  2</option>
+                <option value="3"> Option  3</option>
+            </select>
+
+            <!-- Create a checkbox taht is checked by default and has the label"i agree to the terms and condition -->
+
+            <!-- <input type="checkbox" id="terms"name='terms' checked> -->
+            <label for="terms"> i agree to the terms and condition</label>
+            <input type="checkbox" id="terms"name='terms' checked>
+
+            <!-- Create a radio button group with three option: -->
+            <label>
+            <input type ='radio' name="option" value="1">
+            Option 1
+        </label>
+        <label>
+            <input type ='radio' name="option" value="2">
+            Option 2
+        </label>
+        <label>
+            <input type ='radio' name="option" value="3">
+            Option 3
+        </label>
+
+
+        <!-- Create a text areaElement that has a placeholder "Enter your message" -->
+
+        <label>
+
+        <textarea name="Enter Your Message Here"></textarea>
+        Message write here
+    </label>
+            
+
+    <!-- crete a button element that links to another page when clicked -->
+    <button onclick="location.href='https://www.pintugps.in'">Pintugps.in</button>
+
+    <!-- create an unorderedlist of five element where each item has a different color:-->
+
+    <ul>
+        <li style="color: red;"> item 1</li>
+        <li style="color: green;"> item 2</li>
+        <li style="color: blue;"> item 3</li>
+        <li style="color: purple;"> item 4</li>
+        <li style="color: orange;"> item 5</li>
+    </ul>
+
+    <!-- some advance html example. create a responsive navigation 
+    menu that collapses into a humbuger icon on smaller screens. -->
+
+    <nav>
+        <input type="checkbox" id="toggle">
+        <lable for="toggle" class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </lable>
+        <ul>
+            <li> <a href="#"> Home</a></li>
+            <li> <a href="#"> About</a></li>
+            <li> <a href="#"> Services</a></li>
+            <li> <a href="#"> Contact</a></li>
+        </ul>
+    </nav>
+                    <!-- DESIGN A WEBSITE IN ONLY HTML.
+                    THIS WEBSITE INCLUDES A HEADER 
+                    WITH A NAVIGATION MENU, A MAIN CONTENT AREA WITH AN IMAGE AND A PARAGRAPH OF 
+                    OF TEXT AND A FOOTER. -->
+
+
+                    <header>
+                        <nav>
+                            <ul>
+                                <li> <a href="#"> Home </a></li>
+                                <li> <a href="#"> About </a></li>
+                                <li> <a href="#"> Services </a></li>
+                                <li> <a href="#"> Contact Us </a></li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                    <main>
+                        <h1> Welcome To My Html simple Website</h1>
+                        <img src="https://via.placeholder.com/400x300" alt="placeholder image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+                            Iusto, nemo optio. Ipsum dolores consequuntur rem consequatur aliquam porro magnam odit.</p>
+                        </main>
+                        <footer>
+                            <p>&copy,2023 The Gps Html basic website</p>
+                        </footer
+        </body>
+</html>
